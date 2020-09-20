@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context=".VehicleInformation">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/a"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Set Your Vehicle Information" />
+
+    <EditText
+        android:id="@+id/ownerNameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/profilebackground"
+        android:hint="Owner Name" />
+
+    <EditText
+        android:id="@+id/vehicleTypeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/profilebackground"
+        android:hint="Types of Vehicle" />
+
+    <EditText
+        android:id="@+id/modelNameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/profilebackground"
+        android:hint="Maker / Model" />
+
+    <EditText
+        android:id="@+id/registrationId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/profilebackground"
+        android:hint="Registration No" />
+
+    <EditText
+        android:id="@+id/registrationDateId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:layout_marginTop="3dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:background="@drawable/profilebackground"
+        android:hint="Registration Date" />
+    <EditText
+        android:id="@+id/chassisNoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/profilebackground"
+        android:hint="Chassis No" />
+    <EditText
+        android:id="@+id/engineId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/profilebackground"
+        android:hint="Engine No" />
+    <EditText
+        android:id="@+id/fuelTypeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/profilebackground"
+        android:hint="Fuel Type" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/clearId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/a"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:textAllCaps="false"
+            android:text="Clear"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_y"
+            />
+
+        <Button
+            android:id="@+id/saveId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/a"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:textAllCaps="false"
+            android:text="Save"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_y"
+            />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

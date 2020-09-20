@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/second"
+    android:padding="5dp"
+    tools:context=".Vehicle">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/a"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Your Vehicle Information" />
+
+    <TextView
+        android:id="@+id/ownerNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/profilebackground"
+         />
+
+    <TextView
+        android:id="@+id/vehicleTypeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/profilebackground"
+         />
+
+    <TextView
+        android:id="@+id/modelNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/profilebackground"
+         />
+
+    <TextView
+        android:id="@+id/registrationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/profilebackground"
+         />
+
+    <TextView
+        android:id="@+id/registrationDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:background="@drawable/profilebackground"
+         />
+    <TextView
+        android:id="@+id/chassisNoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/profilebackground"
+         />
+    <TextView
+        android:id="@+id/engineText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/profilebackground"
+        />
+    <TextView
+        android:id="@+id/fuelTypeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/a"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/profilebackground"
+        />
+
+</LinearLayout>
